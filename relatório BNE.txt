@@ -1,0 +1,5 @@
+Instrução BNE - Branch not Equal
+
+Essa instrução deve fazer um salto caso os dois operandos sejam diferentes.
+Monociclo, Multiciclo e Pipeline: Foi adicionado um bit de controle "BNE" quando a instrução é chamda liga esse bit. E faz um "OR" com o branchEqual. Toda a base do branchEqual foi
+utilizada, somente adicionando esse bit de controle comentado acima e fazendo o or.
