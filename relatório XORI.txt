@@ -1,0 +1,5 @@
+Instrução XORI - XOR com Imediato
+
+Essa instrução faz um ou exclusivo com um imediato e salva em um registradr de destino.
+Monociclo, Multiciclo e Pipilipe: Foi adicionado a ULA um xor, assim somente mexendo com os bits do controle para fazer um XOR com imediato e 
+selecionando a operação correta no bit de OPsource da ULA.
