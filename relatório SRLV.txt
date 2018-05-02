@@ -3,6 +3,8 @@ operation: $d = $t >> $s
 syntax: srlv $d, $t, $s
 encoding: 0000 00ss ssst tttt dddd d000 0000 0110
 
+Essa instrução desloca para direita o valor de um registrador pelo valor especificado em $s e coloca o valor no registador de destino. Com zeros entrando a esquerda.
+
 - Adicionei na ALU um $reg2 << $reg1 quando a ALUcontrol for 100
 
 Como o campo OPCODE é 000000, não foi necessário modificar a parte controle.
