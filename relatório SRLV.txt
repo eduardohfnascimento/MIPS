@@ -1,0 +1,9 @@
+SRLV -- Shift right logical variable
+operation: $d = $t >> $s
+syntax: srlv $d, $t, $s
+encoding: 0000 00ss ssst tttt dddd d000 0000 0110
+
+- Adicionei na ALU um $reg2 << $reg1 quando a ALUcontrol for 100
+
+Como o campo OPCODE é 000000, não foi necessário modificar a parte controle.
+Quanto ao ALUControl, ele gera uma saída 100 (que é o que precisamos) quando ALUOP = 10 e FUNCT = 00110.
